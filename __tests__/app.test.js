@@ -7,4 +7,7 @@ describe('discord-sandbox routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
+  it('should be true', () => {
+    expect(true).toEqual(true);
+  });
 });
